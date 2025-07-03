@@ -1,0 +1,53 @@
+import React from 'react'; 
+import { Link } from 'react-router-dom';
+import './index.css';
+
+const Footer = () => {
+  return (
+    <footer className="footer-section">
+      <div className="footer-content">
+        <div className="footer-left">
+          <img src = "/nav.jpg" className="footer-logo" />
+          <h2 className="footer-title">Vinayaga Construction</h2>
+          <p className="footer-desc">
+            Building homes and dreams for over 15 years. We specialize in residential and commercial projects across Tamil Nadu.
+          </p>
+        </div>
+
+        <div className="footer-middle">
+          <h4>Quick Links</h4>
+          <ul>
+            <Link to = "/" className = "Link"> <li><a>Home</a></li></Link>
+            <Link to ="/about" className = "Link"><li><a >About</a></li></Link>
+            <Link to = "/service" className = "Link"> <li><a>Services</a></li></Link>
+             <Link  to = "/project" className ="Link" ><li><a >Projects</a></li></Link>
+           <Link to = "/contact" className  ="Link">  <li><a >Contact</a></li></Link>
+          </ul>
+        </div>
+
+        <div className="footer-right">
+          <h4>Contact Us</h4>
+          <p>📍karapaga Vinayagar Kovil Street Ekkatttuthangal chennai</p>
+          <p>📞 +91 9092642503</p>
+          <p>✉️ vinayagaconstruction2024@gmail.com</p>
+          <div className="social-links">
+            <a href="#">🌐</a>
+            <a href="#">📘</a>
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>© 2025 Vinayaga Construction. All Rights Reserved.</p>
+        <div className="footer-policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
