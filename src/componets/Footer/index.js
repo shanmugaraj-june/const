@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="footer-content">
         <div className="footer-left">
-          <img src = "/nav.jpg" className="footer-logo" />
+          <img src = "/nav.jpg" className="footer-logo"  alt = "footer" />
           <h2 className="footer-title">Vinayaga Construction</h2>
           <p className="footer-desc">
             Building homes and dreams for over 15 years. We specialize in residential and commercial projects across Tamil Nadu.
@@ -31,10 +31,10 @@ const Footer = () => {
           <p>📞 +91 9092642503</p>
           <p>✉️ vinayagaconstruction2024@gmail.com</p>
           <div className="social-links">
-            <a href="#">🌐</a>
-            <a href="#">📘</a>
-            <a href="#">📸</a>
-            <a href="#">💼</a>
+            <p>🌐</p>
+            <p>📘</p>
+            <p>📸</p>
+            <p>💼</p>
           </div>
         </div>
       </div>
@@ -42,8 +42,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 Vinayaga Construction. All Rights Reserved.</p>
         <div className="footer-policy">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms & Conditions</a>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
         </div>
       </div>
     </footer>
