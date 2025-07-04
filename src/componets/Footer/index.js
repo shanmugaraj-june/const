@@ -17,11 +17,11 @@ const Footer = () => {
         <div className="footer-middle">
           <h4>Quick Links</h4>
           <ul>
-            <Link to = "/" className = "Link"> <li><a>Home</a></li></Link>
-            <Link to ="/about" className = "Link"><li><a >About</a></li></Link>
-            <Link to = "/service" className = "Link"> <li><a>Services</a></li></Link>
-             <Link  to = "/project" className ="Link" ><li><a >Projects</a></li></Link>
-           <Link to = "/contact" className  ="Link">  <li><a >Contact</a></li></Link>
+            <Link to = "/" className = "Link"> <li><p>Home</p></li></Link>
+            <Link to ="/about" className = "Link"><li><p >About</p></li></Link>
+            <Link to = "/service" className = "Link"> <li><p>Services</p></li></Link>
+             <Link  to = "/project" className ="Link" ><li><p >Projects</p></li></Link>
+           <Link to = "/contact" className  ="Link">  <li><p>Contact</p></li></Link>
           </ul>
         </div>
 
