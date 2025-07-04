@@ -1,5 +1,4 @@
 import Header from "../Header"
-import { motion } from 'framer-motion'; 
 import "./index.css"
 
 const services = [
@@ -51,7 +50,7 @@ const Service = () => (
       <div className="service-cards">
         {services.map((service, index) => (
           <div className="card fade-in" key={index} style={{ animationDelay: `${index * 0.3}s` }}>
-            <img className="icon-box" src = {service.icon} />
+            <img className="icon-box" src = {service.icon} alt = {service.title}/>
             <h3>{service.title}</h3>
             <p className="description">{service.description}</p>
             <ul>
